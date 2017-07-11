@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Kacper Harasim"
   avatar           : "/assets/images/photo.jpeg"
-  bio              : "I am an amazing person."
+  bio              : "iOS & macOS Software Engineer, 📚 reader"
   location         : "Warsaw, Poland"
   email            : "kacper.harasim@gmail.com"
   uri              :
@@ -89,7 +89,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/Kacper20"
+  github           : "Kacper20"
   gitlab           :
   google_plus      :
   keybase          :
@@ -179,7 +179,7 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
-plugins:
+plugins_dir:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -232,8 +232,8 @@ compress_html:
     envs: development
 
 
-# Defaults
 defaults:
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -241,6 +241,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
-      related: true
+      related: false
