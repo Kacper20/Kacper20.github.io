@@ -2,8 +2,7 @@
 main:
   - title: "About"
     url: /about
-  - title: "Posts"
-    url: /
   - title: "Resume"
     url: /assets/kacper_harasim_resume.pdf
-  
+  - title: "Posts"
+    url: /
